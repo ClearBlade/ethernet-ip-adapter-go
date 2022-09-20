@@ -1,8 +1,5 @@
-export CB_SERVICE_ACCOUNT=opcuaAdapterJim
+export CB_SERVICE_ACCOUNT=ethernetip_adapter
 export CB_SERVICE_ACCOUNT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJkMGVmYjc4ZTBjZjhjYzhlYjZlMGI0ZmVlMDE2IDo6IG9wY3VhQWRhcHRlckppbSIsInNpZCI6IjQwZmFhNWI0LTk4MTItNDhjYy05OTlmLWQxZDlhYTU0NTQ4ZSIsInV0IjozLCJ0dCI6MSwiZXhwIjotMSwiaWF0IjoxNjI2MjkxMTgyfQ.aLqzVen_WR2hNzju8wXFrZd_hA01CfJp9ISMR-ZEYUM
 
-./opc-ua-go-adapter --systemKey=d0efb78e0cf8cc8eb6e0b4fee016 --systemSecret=D0EFB78E0CCEA3B78B8CECB0D5B901 --platformURL=https://bakerhughes.clearblade.com --messagingURL=bakerhughes.clearblade.com --deviceName=opcuaAdapterJim --password=01234567890 --logLevel=debug
-./opc-ua-go-adapter --systemKey=d0efb78e0cf8cc8eb6e0b4fee016 --systemSecret=D0EFB78E0CCEA3B78B8CECB0D5B901 --platformURL=https://bakerhughes.clearblade.com --messagingURL=bakerhughes.clearblade.com --logLevel=debug
-
-
-2021/07/14 15:00:35 datacalls.go:182: response: <!doctype html> <html lang=en> <head> <meta charset=utf-8> <meta name=viewport content="width=device-width,initial-scale=1"> <link rel=manifest href=manifest.json> <meta name=mobile-web-app-capable content=yes> <title>ClearBlade</title> <link rel="shortcut icon" href="/default.ico"></head> <body> <noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>, please <strong>enable JS</strong> to make this app work.</noscript> <div id=app></div> <script type="text/javascript" src="/runtime~main.77cac49384a5b0f74202.js"></script><script type="text/javascript" src="/vendor.f9c1fd1e90a43e3eaefc.chunk.js"></script><script type="text/javascript" src="/main.28fa69a61791ae76532b.chunk.js"></script></body> </html>
+./ethernet-ip-go-adapter --systemKey=d0efb78e0cf8cc8eb6e0b4fee016 --systemSecret=D0EFB78E0CCEA3B78B8CECB0D5B901 --platformURL=https://bakerhughes.clearblade.com --messagingURL=bakerhughes.clearblade.com --deviceName=opcuaAdapterJim --password=01234567890 --logLevel=debug
+./ethernet-ip-go-adapter --systemKey=d0efb78e0cf8cc8eb6e0b4fee016 --systemSecret=D0EFB78E0CCEA3B78B8CECB0D5B901 --platformURL=https://bakerhughes.clearblade.com --messagingURL=bakerhughes.clearblade.com --logLevel=debug

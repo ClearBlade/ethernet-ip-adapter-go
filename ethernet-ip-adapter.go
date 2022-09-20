@@ -103,6 +103,7 @@ func initializeEIP() {
 		// cannot get tags
 		log.Fatalln(err)
 	}
+	log.Printf("[DEBUG] Tags retrieved: %#v\n", eipTagMap)
 }
 
 func cbMessageHandler(message *mqttTypes.Publish) {
